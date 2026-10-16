@@ -25,3 +25,15 @@ Industrial crop breeding for GregTech packs: crop sticks, stats, cross-breeding,
         versionRange = "[${minecraft_version}]"
         ordering = "NONE"
         side = "BOTH"
+    [[dependencies.${mod_id}]]
+        modId = "gtceu"
+        mandatory = true
+        versionRange = "[${gtceu_version},8.0.0)"
+        ordering = "AFTER"
+        side = "BOTH"
+    [[dependencies.${mod_id}]]
+        modId = "gtialib"
+        mandatory = true
+        versionRange = "[${gtialib_version},)"
+        ordering = "AFTER"
+        side = "BOTH"

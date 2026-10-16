@@ -2,7 +2,7 @@
 
 Industrial crop breeding for GregTech modpacks on Minecraft 1.20.1 (Forge), made for [GregTech Infinity Ascension](https://github.com/GTInfinityAscension/GregTech-Infinity-Ascension).
 
-> **Status: early development.** Nothing here is playable yet.
+> **Status: early development.** Nothing here is playable yet. Requires GTCEu and [GTIA Lib](https://github.com/GTInfinityAscension/GTIA-Lib).
 
 ## What it will be
 
