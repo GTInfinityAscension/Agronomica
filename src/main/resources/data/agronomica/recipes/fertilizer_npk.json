@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "agronomica:fertilizer_n"
+    },
+    {
+      "item": "agronomica:fertilizer_p"
+    },
+    {
+      "item": "agronomica:fertilizer_k"
+    }
+  ],
+  "result": {
+    "item": "agronomica:fertilizer_npk",
+    "count": 3
+  }
+}

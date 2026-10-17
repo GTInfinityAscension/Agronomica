@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "crossed=false": {
+      "model": "agronomica:block/crop_sticks"
+    },
+    "crossed=true": {
+      "model": "agronomica:block/crop_sticks_crossed"
+    }
+  }
+}

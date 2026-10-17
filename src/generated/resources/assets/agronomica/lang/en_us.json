@@ -1,3 +1,26 @@
 {
-  "item.agronomica.crop_sticks": "Crop Sticks"
+  "agronomica.fertilizer.adds": "Adds N %s · P %s · K %s to a crop's soil",
+  "agronomica.seed.stats": "Growth %s · Gain %s · Resistance %s",
+  "agronomica.seed.unknown": "Unknown seeds",
+  "agronomica.species.elephant_grass": "Elephant Grass",
+  "agronomica.species.hemp": "Hemp",
+  "agronomica.species.rapeseed": "Rapeseed",
+  "agronomica.species.rubber_bush": "Rubber Bush",
+  "block.agronomica.crop_sticks": "Crop Sticks",
+  "block.agronomica.elephant_grass": "Elephant Grass",
+  "block.agronomica.hemp": "Hemp",
+  "block.agronomica.rapeseed": "Rapeseed",
+  "block.agronomica.rubber_bush": "Rubber Bush",
+  "item.agronomica.biomass_bundle": "Biomass Bundle",
+  "item.agronomica.crop_sticks": "Crop Sticks",
+  "item.agronomica.fertilizer_k": "Potash Fertilizer",
+  "item.agronomica.fertilizer_n": "Nitrogen Fertilizer",
+  "item.agronomica.fertilizer_npk": "NPK Fertilizer",
+  "item.agronomica.fertilizer_p": "Phosphate Fertilizer",
+  "item.agronomica.hemp_fiber": "Hemp Fiber",
+  "item.agronomica.latex": "Latex",
+  "item.agronomica.oily_seed": "Oily Seed",
+  "item.agronomica.seeds": "Seeds",
+  "item.agronomica.seeds.named": "%s Seeds",
+  "itemGroup.agronomica": "Agronomica"
 }

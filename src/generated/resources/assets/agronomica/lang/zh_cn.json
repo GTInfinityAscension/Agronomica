@@ -1,3 +1,26 @@
 {
-  "item.agronomica.crop_sticks": "作物架"
+  "agronomica.fertilizer.adds": "为作物土壤添加 N %s · P %s · K %s",
+  "agronomica.seed.stats": "生长 %s · 产量 %s · 抗性 %s",
+  "agronomica.seed.unknown": "未知种子",
+  "agronomica.species.elephant_grass": "象草",
+  "agronomica.species.hemp": "大麻",
+  "agronomica.species.rapeseed": "油菜",
+  "agronomica.species.rubber_bush": "橡胶灌木",
+  "block.agronomica.crop_sticks": "作物架",
+  "block.agronomica.elephant_grass": "象草",
+  "block.agronomica.hemp": "大麻",
+  "block.agronomica.rapeseed": "油菜",
+  "block.agronomica.rubber_bush": "橡胶灌木",
+  "item.agronomica.biomass_bundle": "生物质捆",
+  "item.agronomica.crop_sticks": "作物架",
+  "item.agronomica.fertilizer_k": "钾肥",
+  "item.agronomica.fertilizer_n": "氮肥",
+  "item.agronomica.fertilizer_npk": "复合肥（NPK）",
+  "item.agronomica.fertilizer_p": "磷肥",
+  "item.agronomica.hemp_fiber": "大麻纤维",
+  "item.agronomica.latex": "胶乳",
+  "item.agronomica.oily_seed": "油籽",
+  "item.agronomica.seeds": "种子",
+  "item.agronomica.seeds.named": "%s种子",
+  "itemGroup.agronomica": "Agronomica"
 }

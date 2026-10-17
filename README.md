@@ -2,7 +2,14 @@
 
 Industrial crop breeding for GregTech modpacks on Minecraft 1.20.1 (Forge), made for [GregTech Infinity Ascension](https://github.com/GTInfinityAscension/GregTech-Infinity-Ascension).
 
-> **Status: early development.** Nothing here is playable yet. Requires GTCEu and [GTIA Lib](https://github.com/GTInfinityAscension/GTIA-Lib).
+> **Status: early development.** The core works: crop sticks, four Steam/LV plants (hemp, rapeseed, elephant grass, rubber bush), Growth/Gain/Resistance, cross-breeding with mutations, NPK soil and fertilisers. Hemp and rapeseed seeds drop from grass. Requires GTCEu and [GTIA Lib](https://github.com/GTInfinityAscension/GTIA-Lib).
+
+## How to play (current core)
+
+1. Till farmland, place **Crop Sticks** on it and right-click with a seed.
+2. Plants grow on random ticks with light 9+, taking N/P/K from the soil. Right-click with a fertiliser to refill it.
+3. Right-click a mature plant to harvest; it goes back to its first leaves.
+4. Right-click empty sticks with another stick to **cross** them. Crossed sticks between two mature plants grow a child with averaged stats, sometimes a new species (hemp + rapeseed → elephant grass; rapeseed + elephant grass → rubber bush).
 
 ## What it will be
 
