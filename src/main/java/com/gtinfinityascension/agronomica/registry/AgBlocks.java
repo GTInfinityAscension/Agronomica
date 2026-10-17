@@ -10,6 +10,7 @@ import net.minecraftforge.registries.RegistryObject;
 
 import com.gtinfinityascension.agronomica.Agronomica;
 import com.gtinfinityascension.agronomica.block.AgCropBlock;
+import com.gtinfinityascension.agronomica.block.CompostBarrelBlock;
 import com.gtinfinityascension.agronomica.block.CropSticksBlock;
 
 public final class AgBlocks {
@@ -19,6 +20,8 @@ public final class AgBlocks {
 
     public static final RegistryObject<Block> CROP_STICKS = BLOCKS.register("crop_sticks",
             () -> new CropSticksBlock(props()));
+    public static final RegistryObject<Block> COMPOST_BARREL = BLOCKS.register("compost_barrel",
+            () -> new CompostBarrelBlock(BlockBehaviour.Properties.of().strength(1.5f).sound(SoundType.WOOD)));
     public static final RegistryObject<Block> HEMP = crop("hemp");
     public static final RegistryObject<Block> RAPESEED = crop("rapeseed");
     public static final RegistryObject<Block> RUBBER_BUSH = crop("rubber_bush");

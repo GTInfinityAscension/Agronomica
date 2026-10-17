@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:dusts/ash"
+    },
+    {
+      "tag": "forge:dusts/ash"
+    },
+    {
+      "tag": "forge:dusts/ash"
+    },
+    {
+      "tag": "forge:dusts/ash"
+    },
+    {
+      "item": "minecraft:water_bucket"
+    }
+  ],
+  "result": {
+    "item": "agronomica:fertilizer_k",
+    "count": 2
+  }
+}
