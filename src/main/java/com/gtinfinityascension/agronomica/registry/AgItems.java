@@ -28,9 +28,9 @@ public final class AgItems {
     public static final RegistryObject<Item> LATEX = simple("latex");
     public static final RegistryObject<Item> BIOMASS_BUNDLE = simple("biomass_bundle");
 
-    // EN: Fertiliser N/P/K per use; NPK is weaker per element but covers all three.
-    // PT: Fertilizante N/P/K por uso; o NPK rende menos por elemento, mas cobre os três.
-    // ZH: 每次使用的 N/P/K 肥料量；NPK 单项较少，但三项兼顾。
+    // EN: Fertiliser N/P/K per use; NPK (35 each) is the MV chemistry product, hand-mixing it gives only one.
+    // PT: Fertilizante N/P/K por uso; o NPK (35 de cada) é produto da química do MV; misturar à mão rende só um.
+    // ZH: 每次使用的 N/P/K 量；NPK（各 35）是 MV 化工产物，手工合成只得一个。
     public static final RegistryObject<Item> COMPOST = ITEMS.register("compost",
             () -> new FertilizerItem(new Item.Properties(), 20, 5, 5));
     public static final RegistryObject<Item> FERTILIZER_N = ITEMS.register("fertilizer_n",
@@ -40,7 +40,7 @@ public final class AgItems {
     public static final RegistryObject<Item> FERTILIZER_K = ITEMS.register("fertilizer_k",
             () -> new FertilizerItem(new Item.Properties(), 0, 0, 40));
     public static final RegistryObject<Item> FERTILIZER_NPK = ITEMS.register("fertilizer_npk",
-            () -> new FertilizerItem(new Item.Properties(), 25, 25, 25));
+            () -> new FertilizerItem(new Item.Properties(), 35, 35, 35));
 
     static {
         Tr.of("item.agronomica.crop_sticks", "Crop Sticks", "Suportes de Cultivo", "作物架");
