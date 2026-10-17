@@ -1,6 +1,7 @@
 {
   "agronomica.fertilizer.adds": "Adds N %s · P %s · K %s to a crop's soil",
   "agronomica.seed.stats": "Growth %s · Gain %s · Resistance %s",
+  "agronomica.seed.unanalyzed": "Unanalyzed: use a Seed Analyzer to see its stats",
   "agronomica.seed.unknown": "Unknown seeds",
   "agronomica.species.elephant_grass": "Elephant Grass",
   "agronomica.species.hemp": "Hemp",

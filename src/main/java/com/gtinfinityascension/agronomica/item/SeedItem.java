@@ -30,6 +30,8 @@ public class SeedItem extends Item {
         Tr.of("agronomica.seed.stats", "Growth %s · Gain %s · Resistance %s",
                 "Crescimento %s · Ganho %s · Resistência %s", "生长 %s · 产量 %s · 抗性 %s");
         Tr.of("agronomica.seed.unknown", "Unknown seeds", "Sementes desconhecidas", "未知种子");
+        Tr.of("agronomica.seed.unanalyzed", "Unanalyzed: use a Seed Analyzer to see its stats",
+                "Não analisada: use um Analisador de Sementes para ver os atributos", "未分析：使用种子分析仪查看属性");
     }
 
     public SeedItem(Properties properties) {
@@ -49,6 +51,11 @@ public class SeedItem extends Item {
         return tag == null ? null : CropRegistry.get(tag.getString("species"));
     }
 
+    /** Set by the Seed Analyzer (GTIACore); until then the stats stay hidden. */
+    public static boolean isAnalyzed(ItemStack stack) {
+        return stack.getTag() != null && stack.getTag().getBoolean("analyzed");
+    }
+
     public static CropStats stats(ItemStack stack) {
         var tag = stack.getTag();
         return tag == null ? CropStats.WILD : CropStats.load(tag.getCompound("stats"));
@@ -65,6 +72,10 @@ public class SeedItem extends Item {
     @Override
     public void appendHoverText(ItemStack stack, @Nullable Level level, List<Component> lines, TooltipFlag flag) {
         if (species(stack) == null) return;
+        if (!isAnalyzed(stack)) {
+            lines.add(Component.translatable("agronomica.seed.unanalyzed").withStyle(ChatFormatting.DARK_GRAY));
+            return;
+        }
         var s = stats(stack);
         lines.add(Component.translatable("agronomica.seed.stats", s.growth(), s.gain(), s.resistance())
                 .withStyle(ChatFormatting.GRAY));

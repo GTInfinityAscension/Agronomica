@@ -1,6 +1,7 @@
 {
   "agronomica.fertilizer.adds": "为作物土壤添加 N %s · P %s · K %s",
   "agronomica.seed.stats": "生长 %s · 产量 %s · 抗性 %s",
+  "agronomica.seed.unanalyzed": "未分析：使用种子分析仪查看属性",
   "agronomica.seed.unknown": "未知种子",
   "agronomica.species.elephant_grass": "象草",
   "agronomica.species.hemp": "大麻",

@@ -1,6 +1,7 @@
 {
   "agronomica.fertilizer.adds": "Adiciona N %s · P %s · K %s ao solo da planta",
   "agronomica.seed.stats": "Crescimento %s · Ganho %s · Resistência %s",
+  "agronomica.seed.unanalyzed": "Não analisada: use um Analisador de Sementes para ver os atributos",
   "agronomica.seed.unknown": "Sementes desconhecidas",
   "agronomica.species.elephant_grass": "Capim-elefante",
   "agronomica.species.hemp": "Cânhamo",
